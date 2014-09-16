@@ -1,0 +1,119 @@
+/* Gradient color1 - color2 - color1 */
+th.rate_wizard_input_title {
+	text-align: center;
+	vertical-align: middle;
+	width: 55px;
+	padding: 8px;
+}
+
+th.rate_wizard_input_locked {
+	background-image: url(/academic/static/src/img/icons/locked.png);
+	background-repeat: no-repeat;
+	background-size: 13px 13px;
+	background-position: 98% 90%;
+}
+
+th.rate_wizard_report_function_title {
+	text-align: center;
+	vertical-align: middle;
+	width: 55px;
+	padding: 8px;
+}
+
+td.rate_wizard_num_order {
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align: middle;
+}
+
+td.rate_wizard_courseline {
+	text-align: left;
+	padding-left: 3px;
+	vertical-align: middle;
+}
+
+tr.rate_wizard_header_table {
+	background-color: #dce9f9;
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 14px;
+	color: #444;
+	
+	background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+	
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	   -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	        box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	       text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	border-top: none;
+}
+
+table.bordered {
+	border-spacing: 0;
+	display: table;
+	border-collapse: separate;
+	border: solid #ccc 1px;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;
+	        box-shadow: 0 1px 1px #ccc;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-   moz-box-shadow: 0 1px 1px #ccc;
+}
+
+.bordered td,.bordered th {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.bordered th:first-child {
+	   x-moz-border-radius: 6px 0 0 0;
+	-webkit-border-radius: 6px 0 0 0;
+	        border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+	   -moz-border-radius: 0 6px 0 0;
+	-webkit-border-radius: 0 6px 0 0;
+	        border-radius: 0 6px 0 0;
+}
+
+/*
+.rate_wizard_row:hover {
+	background: #E6DEBA;
+	     -o-transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	   -moz-transition: all 0.1s ease-in-out;
+	    -ms-transition: all 0.1s ease-in-out;
+	        transition: all 0.1s ease-in-out;
+}
+*/
+
+td.rate_wizard_num_order_gotfocus {
+	background-image: url(/academic/static/src/img/icons/write_row.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 1% 55%;
+	padding-left: 4px;
+	padding-right: 0px;
+}
+
+td.rate_wizard_num_order_lostfocus {
+	background-image: none;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+tr.rate_wizard_rate_gotfocus {
+	background: #EEE3B3 !important;
+	font-weight: bold;
+}
+
+tr.rate_wizard_rate_lostfocus {
+	background: transparent;
+	font-weight: normal;
+}

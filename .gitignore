@@ -1,0 +1,9 @@
+# built application files
+*.pyc
+*~
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+*.pydevproject

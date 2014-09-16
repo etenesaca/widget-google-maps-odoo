@@ -1,0 +1,13 @@
+th.requalification_wizard_reason_title {
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+	padding: 8px;
+}
+
+tr.requalification_wizard_old_rate {
+	text-align: right;
+	vertical-align: middle;
+	width: 200px;
+	padding: 8px;
+}

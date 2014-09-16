@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+<t t-name="gmap">
+    <html>
+        <body>
+            <span t-att-class="'oe_form_field '+widget.widget_class" t-att-style="widget.node.attrs.style">
+              <t t-if="!widget.get('effective_readonly')">
+                  <input t-att-type="widget.password ? 'password' : 'text'"
+                      t-att-id="widget.id_for_label"
+                      t-att-tabindex="widget.node.attrs.tabindex"
+                      t-att-autofocus="widget.node.attrs.autofocus"
+                      t-att-placeholder="widget.node.attrs.placeholder"
+                      t-att-maxlength="widget.field.size"
+                  /><img class="oe_field_translate oe_input_icon" t-if="widget.field.translate" t-att-src='_s + "/web/static/src/img/icons/terp-translate.png"' width="16" height="16" border="0"/>
+              </t>
+              <t t-if="widget.get('effective_readonly')">
+                  <iframe id="gmap" width="100%%" height="450" frameborder="0" style="border:0"/>
+              </t>
+          </span>
+        </body>
+    </html>    
+</t>
+</templates>
