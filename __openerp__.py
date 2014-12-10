@@ -33,13 +33,8 @@
         ],
     'init_xml': [
         ],
-    'update_xml': [
-        ],
-    "css": [ 
-        'static/src/css/widget_gmaps.css',
-        ],
-    'js': [
-        'static/src/js/widget_gmaps.js',
+    'data': [
+        'views/widget_gmaps.xml',
         ],
     'qweb': [
         'static/src/xml/resource.xml'
